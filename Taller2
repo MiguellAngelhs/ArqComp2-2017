@@ -1,4 +1,4 @@
-Representar los numeros del 0-31, en binarios de 5bits.
+1- Representar los numeros del 0-31, en binarios de 5bits.
 00000
 00001
 00010
@@ -31,4 +31,7 @@ Representar los numeros del 0-31, en binarios de 5bits.
 11101
 11110
 11111
+
+2- Asignar los registros a la siguiente operación:
+H = (S-J) + (T-X)-(V+W)
 
