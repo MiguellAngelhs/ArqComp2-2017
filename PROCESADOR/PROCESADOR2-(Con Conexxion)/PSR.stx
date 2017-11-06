@@ -1,0 +1,37 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/MiguelAngel/Desktop/PROCESADOR/PROCESADOR/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.41 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/MiguelAngel/Desktop/PROCESADOR/PROCESADOR/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.42 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/MiguelAngel/Desktop/PROCESADOR/PROCESADOR/PSR.vhd" in Library work.
+Entity <PSR> compiled.
+ERROR:HDLParsers:164 - "C:/Users/MiguelAngel/Desktop/PROCESADOR/PROCESADOR/PSR.vhd" Line 40. parse error, unexpected COLON, expecting error or IDENTIFIER
+ERROR:HDLParsers:1301 - "C:/Users/MiguelAngel/Desktop/PROCESADOR/PROCESADOR/PSR.vhd" Line 49. Entity 'PSR' PSR is not an array slice prefix.
+ERROR:HDLParsers:1300 - "C:/Users/MiguelAngel/Desktop/PROCESADOR/PROCESADOR/PSR.vhd" Line 50. Entity 'PSR' PSR is not an array index prefix.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.54 secs
+ 
+--> 
+
+Total memory usage is 262548 kilobytes
+
+Number of errors   :    3 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
