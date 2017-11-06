@@ -1,0 +1,45 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "H:/PROCESADOR/PSR/Con carry/TB_PROCESADOR2_isim_beh.exe" -prj "H:/PROCESADOR/PSR/Con carry/TB_PROCESADOR2_beh.prj" "work.TB_PROCESADOR2" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "H:/PROCESADOR/PSR/Con carry/UNIDADCONTROL.vhd" into library work
+Parsing VHDL file "H:/PROCESADOR/PSR/Con carry/SUMADOR.vhd" into library work
+Parsing VHDL file "H:/PROCESADOR/PSR/Con carry/SEU.vhd" into library work
+Parsing VHDL file "H:/PROCESADOR/PSR/Con carry/REGISTERFILE.vhd" into library work
+Parsing VHDL file "H:/PROCESADOR/PSR/Con carry/PSR_MODIFIER.vhd" into library work
+Parsing VHDL file "H:/PROCESADOR/PSR/Con carry/PSR.vhd" into library work
+Parsing VHDL file "H:/PROCESADOR/PSR/Con carry/PROGRAMCOUNTER.vhd" into library work
+Parsing VHDL file "H:/PROCESADOR/PSR/Con carry/NEXTPROGRAMCOUNTER.vhd" into library work
+Parsing VHDL file "H:/PROCESADOR/PSR/Con carry/MUX.vhd" into library work
+Parsing VHDL file "H:/PROCESADOR/PSR/Con carry/InstructionMemory.vhd" into library work
+Parsing VHDL file "H:/PROCESADOR/PSR/Con carry/ALU.vhd" into library work
+Parsing VHDL file "H:/PROCESADOR/PSR/Con carry/PROCESADOR2.vhd" into library work
+Parsing VHDL file "H:/PROCESADOR/PSR/Con carry/TB_PROCESADOR2.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package numeric_std
+Compiling architecture mahs of entity SUMADOR [sumador_default]
+Compiling architecture mahs of entity NEXTPROGRAMCOUNTER [nextprogramcounter_default]
+Compiling architecture mahs of entity PROGRAMCOUNTER [programcounter_default]
+Compiling architecture arqinstructionmemory of entity instructionMemory [instructionmemory_default]
+Compiling architecture mahs of entity UNIDADCONTROL [unidadcontrol_default]
+Compiling architecture mahs of entity REGISTERFILE [registerfile_default]
+Compiling architecture mahs of entity MUX [mux_default]
+Compiling architecture mahs of entity SEU [seu_default]
+Compiling architecture mahs of entity ALU [alu_default]
+Compiling architecture mahs of entity PSR_MODIFIER [psr_modifier_default]
+Compiling architecture mahs of entity PSR [psr_default]
+Compiling architecture mahs of entity PROCESADOR2 [procesador2_default]
+Compiling architecture behavior of entity tb_procesador2
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 31 VHDL Units
+Built simulation executable H:/PROCESADOR/PSR/Con carry/TB_PROCESADOR2_isim_beh.exe
+Fuse Memory Usage: 36848 KB
+Fuse CPU Usage: 2562 ms

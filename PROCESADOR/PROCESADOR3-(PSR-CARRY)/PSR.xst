@@ -1,0 +1,5 @@
+set -tmpdir "E:/PROCESADOR/PSR/Con carry/xst/projnav.tmp"
+set -xsthdpdir "E:/PROCESADOR/PSR/Con carry/xst"
+elaborate
+-ifn PSR.prj
+-ifmt mixed
