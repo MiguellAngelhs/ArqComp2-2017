@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+SUMADOR instance_name (
+    .a(a), 
+    .b(b), 
+    .salidaSumador(salidaSumador)
+    );
+
+

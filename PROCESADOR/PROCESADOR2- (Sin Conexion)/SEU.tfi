@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+SEU instance_name (
+    .inmediato(inmediato), 
+    .salidaSEU(salidaSEU)
+    );
+
+

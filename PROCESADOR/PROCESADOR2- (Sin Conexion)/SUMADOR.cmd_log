@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "H:/PROCESADOR/SUMADOR.xst" -ofn "H:/PROCESADOR/SUMADOR.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 SUMADOR.ngc SUMADOR.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o SUMADOR_map.ncd SUMADOR.ngd SUMADOR.pcf 
+vhdtdtfi -prj PROCESADOR -o H:/PROCESADOR/SUMADOR.tfi -module SUMADOR -template C:/.Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work SUMADOR.vhd 
+vhdtdtfi -prj PROCESADOR -o H:/PROCESADOR/SUMADOR.tfi -module SUMADOR -template C:/.Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work SUMADOR.vhd 

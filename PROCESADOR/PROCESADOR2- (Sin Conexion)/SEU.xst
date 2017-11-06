@@ -1,0 +1,5 @@
+set -tmpdir "E:/PROCESADOR/xst/projnav.tmp"
+set -xsthdpdir "E:/PROCESADOR/xst"
+elaborate
+-ifn SEU.prj
+-ifmt mixed
