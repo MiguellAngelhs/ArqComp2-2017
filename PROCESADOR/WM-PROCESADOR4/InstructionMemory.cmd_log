@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "H:/PROCESADOR/InstructionMemory.xst" -ofn "H:/PROCESADOR/InstructionMemory.syr" 
+xst -intstyle ise -ifn "H:/PROCESADOR/InstructionMemory.xst" -ofn "H:/PROCESADOR/InstructionMemory.syr" 
+vhdtdtfi -prj PROCESADOR -o C:/Users/MiguelAngel/Desktop/PROCESADOR/PROCESADOR/instructionMemory.vhi -module instructionMemory -template C:/.Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work InstructionMemory.vhd 
